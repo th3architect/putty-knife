@@ -1,10 +1,13 @@
-// the purposes of this scraper is to collect the content type of a hierarchy of
-// pages. The resulting data will look like
+// the purposes of this scraper example is to collect the content-type for each
+// page in a hierarchy of pages. The resulting data will look like
+//
 // {
 //   "http://example.com": "text/html",
 //   "http://example.com/som-page.html": "text/html",
 //   "http://example.com/images/something.png": "image/png"
 // }
+//
+// this specific example will be scraping http://nodejs.org/dist/latest/
 
 // dependencies
 var pk = require("./");
