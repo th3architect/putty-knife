@@ -10,7 +10,7 @@
 // this specific example will be scraping http://nodejs.org/dist/latest/
 
 // dependencies
-var pk = require("./");
+var pk = require("../");
 var path    = require("path");
 
 // this demo uses superagent to make HTTP requests, you can use whatever you like
