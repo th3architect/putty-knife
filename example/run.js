@@ -20,6 +20,8 @@ var cheerio = require("cheerio");
 // a variable where we will store the content type of each scraped page
 var data = {};
 
+// in this generic example, we will define a single scrape handler for all urs
+// see the API for documentation on the function parameters
 function scrape(q, url, next) {
 
   // HEAD request on url
