@@ -1,0 +1,24 @@
+{
+  "name": "putty-knife",
+  "version": "0.0.0",
+  "description": "gently scrape websites, sincerely, most definitely",
+  "main": "lib/putty-knife.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donutclub/putty-knife"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "duchess <code@donut.club>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "chai": "^1.9.1",
+    "superagent": "^0.18.2",
+    "cheerio": "^0.17.0"
+  }
+}
