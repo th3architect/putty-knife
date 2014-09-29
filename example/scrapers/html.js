@@ -16,7 +16,7 @@ var pk         = require("../../");
 module.exports = pk.html(function(data, q, req, res, next) {
   res.$("a[href]").each(function(idx, elem) {
 
-    // resolve canonical req.url from link href attribute
+    // resolve canonical url from link href attribute
     var href = res.$(elem).attr("href");
     var newUrl = url.resolve(req.url, href);
 
